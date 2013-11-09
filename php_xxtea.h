@@ -30,8 +30,8 @@ extern zend_module_entry xxtea_module_entry;
 #define XXTEA_MODULE_NAME        "xxtea"
 #define XXTEA_BUILD_DATE         __DATE__ " " __TIME__
 #define XXTEA_VERSION            "1.0.4"
-#define XXTEA_AUTHOR             "Ma Bingyao, Gao Chunhui, Liu Tao"
-#define XXTEA_HOMEPAGE           "https://github.com/liut/pecl-xxtea"
+#define XXTEA_AUTHOR             "Ma Bingyao, Gao Chunhui, Liu Tao, Xu Xianhua"
+#define XXTEA_HOMEPAGE           "https://github.com/willsky/pecl-xxtea"
 
 ZEND_MINIT_FUNCTION(xxtea);
 ZEND_MSHUTDOWN_FUNCTION(xxtea);
